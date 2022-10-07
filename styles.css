@@ -24,11 +24,19 @@ body {
 
 .header-links {
   display: flex;
-  text-decoration: none;
   list-style: none;
   margin: 0;
   padding: 0;
   gap: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+a:visited {
+  color: #E5E7EB;
 }
 
 /*hero*/
@@ -36,11 +44,10 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  height: ;
+  height: 480px;
   background-color: #1F2937;
-  padding: 16px 400px;
-  padding-bottom: 100px;
-}
+  padding: 16px 400px
+ }
 
 .hero-left {
   display: flex;
