@@ -7,13 +7,14 @@ body {
   flex-direction: column;
 }
 
+/*header*/
 .header {
   display: flex;
   justify-content: space-between;
   height: 100px;
   background-color: #1F2937;
   color: #F9FAF8;
-  padding: 16px 200px;
+  padding: 16px 400px;
 }
 
 .header-logo {
@@ -28,4 +29,54 @@ body {
   margin: 0;
   padding: 0;
   gap: 24px;
+}
+
+/*hero*/
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  height: ;
+  background-color: #1F2937;
+  padding: 16px 400px;
+  padding-bottom: 100px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  gap: 12px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #708090;
+  color: #F9FAF8;
+  height: 234px;
+  width: 450px;
 }
