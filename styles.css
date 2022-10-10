@@ -14,7 +14,7 @@ body {
   height: 100px;
   background-color: #1F2937;
   color: #F9FAF8;
-  padding: 16px 400px;
+  padding: 16px 300px;
 }
 
 .header-logo {
@@ -46,7 +46,7 @@ a:visited {
   justify-content: space-between;
   height: 350px;
   background-color: #1F2937;
-  padding: 16px 400px;
+  padding: 16px 300px;
 }
 
 .hero-left {
@@ -163,4 +163,58 @@ a:visited {
   width: 750px;
   font-weight: bold;
   font-size: 24px;
+}
+
+/*blue section*/
+
+.sign-up-section {
+  display: flex;
+  justify-content: center;
+  padding: 132px 300px;
+}
+
+.blue-section {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 48px 150px;
+}
+
+.blue-section-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.call-to-action {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.click-the-button {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0;
+}
+
+.blue-section-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-section-button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 32px;
+  border-style: solid;
+  border-color: #F9FAF8;
+  border-radius: 8px;
+  cursor: pointer;
 }
