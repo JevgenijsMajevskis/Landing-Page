@@ -46,8 +46,8 @@ a:visited {
   justify-content: space-between;
   height: 350px;
   background-color: #1F2937;
-  padding: 16px 400px
- }
+  padding: 16px 400px;
+}
 
 .hero-left {
   display: flex;
@@ -86,4 +86,52 @@ a:visited {
   color: #F9FAF8;
   height: 234px;
   width: 450px;
+}
+
+/*information*/
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-top {
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+}
+
+.info-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.info-center {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 8px;
+}
+
+.info-img {
+  height: 150px;
+  width: 150px;
+  border: 4px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #3882F6;
+}
+
+.info-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.info-img-text {
+  width: 156px;
+  text-align: center;
+  color: #696969;
 }
