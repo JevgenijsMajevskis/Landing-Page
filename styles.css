@@ -11,23 +11,35 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  height: 100px;
   background-color: #1F2937;
   color: #F9FAF8;
-  padding: 16px 300px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
-.header-logo {
+.header-left {
+  display: flex;
   font-size: 24px;
   font-weight: bold;
 }
 
+.header-right {
+  display: flex;
+  justify-content: center;
+}
+
 .header-links {
   display: flex;
-  list-style: none;
+  align-items: center;
+  gap: 16px;
   margin: 0;
   padding: 0;
-  gap: 24px;
+}
+
+li {
+  list-style-type: none;
 }
 
 a {
