@@ -56,16 +56,17 @@ a:visited {
 .hero {
   display: flex;
   justify-content: space-between;
-  height: 350px;
   background-color: #1F2937;
-  padding: 16px 300px;
+  padding: 48px 300px;
 }
 
 .hero-left {
   display: flex;
   flex-direction: column;
+  justify-content: center; 
   width: 450px;
   gap: 12px;
+  padding-bottom: 48px;
 }
 
 .hero-title {
@@ -88,6 +89,11 @@ a:visited {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.hero-right {
+  display: flex;
+  padding-bottom: 48px;
 }
 
 .hero-placeholder {
