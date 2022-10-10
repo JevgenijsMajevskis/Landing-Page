@@ -218,3 +218,17 @@ a:visited {
   border-radius: 8px;
   cursor: pointer;
 }
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 24px 300px;
+}
+
+.footer-text {
+  margin: 0;
+}
